@@ -1,0 +1,34 @@
+{
+  "name": "test-mark-onlesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode-production",
+    "start": "webpack-dev-server --mode-development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musa-94/Test-mark-onLesson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Musa-94/Test-mark-onLesson/issues"
+  },
+  "homepage": "https://github.com/Musa-94/Test-mark-onLesson#readme",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0",
+    "html-webpack-plugin": "3.2.0",
+    "html-loader": "^0.5.5",
+    "babel-loader": "8.0.6",
+    "@babel/cli": "7.7.4",
+    "@babel/core": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "worker-loader": "2.0.0"
+  }
+}
